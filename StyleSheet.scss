@@ -1,19 +1,30 @@
 @import url(//db.onlinewebfonts.com/c/0801c08e5412f54e4b4e9ad146d83a12?family=Ink+Free);
 body{
-    background-color: black;
+    background-color: #33476B;
     font-family: InkFree;
   
 }
-text{
-    color: white;
-}
+
 a{ 
-    display: flex;
+    box-shadow: 5px 1px 20px black;
+    color: rgb(0, 0, 0);
+    
+    text-align: center;
+    display: block;
     margin: 100px;
-    width: 100px;
+    height: 20px;
+    width: 250px;
     text-decoration: none;
     text-decoration-color: white;
     font-weight: bold;
     padding: 25px;
     background-color: burlywood;
+    border-radius: 50px;
+    transition: .75s ;
+    &:hover{
+        background-color: black;
+        color: burlywood;
+        box-shadow: 1px 1px 20px burlywood;
+    }
+    
 }
